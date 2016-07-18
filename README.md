@@ -2,13 +2,6 @@
 
 > Automatically sort and inject AngularJS app files depending on module definitions and usage
 
-[![License][license-image]][license-url]
-[![Version][version-image]][version-url]
-[![Build Status][build-image]][build-url]
-[![Dependency Status][dependencies-image]][dependencies-url]
-[![npm](https://img.shields.io/npm/dm/grunt-angular-file-loader.svg?style=flat)](https://www.npmjs.com/package/grunt-angular-file-loader)
-
-
 ## 180716 Fix
 
 This repository includes a fix to a possible cross-platform line-break bug on Windows 10 (as at 18 Jul 15) that caused grunt-angular-file-loader to recursively include index.html itself instead of dependencies as designed.
